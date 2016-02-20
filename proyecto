@@ -1,0 +1,24 @@
+<%-- 
+    Document   : index
+    Created on : 20/02/2016, 10:18:25 AM
+    Author     : ricardo
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1>Proyecto base de datos</h1>
+        <button class="btn btn-primary">Este boton es feo</button>
+        <%
+            int edad=20;
+            int dias=365;
+            int diasvividos=edad*dias;
+            out.println("Dias que eh vivido"+diasvividos);
+                    %>
+    </body>
+</html>
